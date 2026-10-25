@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>روبوتيم تك | وكالة ذكاء اصطناعي وأتمتة وتصميم مواقع</title>
+<meta name="description" content="Robotim tech وكالة تقنية متخصصة في تصميم المواقع الإلكترونية الفاخرة وبناء وكلاء الذكاء الاصطناعي وأتمتة الأعمال.">
+<meta name="theme-color" content="#060714">
+<link rel="canonical" href="https://robotimtech.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Robotim tech">
+<meta property="og:title" content="Robotim tech | AI Agency · Automation · Web Design">
+<meta property="og:description" content="مواقع فاخرة، وكلاء ذكاء اصطناعي، وأتمتة تعمل بدلاً عنك.">
+<meta property="og:url" content="https://robotimtech.com/">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Robotim tech","url":"https://robotimtech.com","description":"AI agency, automation and web design","logo":"https://robotimtech.com/favicon.svg"}</script>
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{--bg:#060714;--bg2:#0a0c20;--card:rgba(255,255,255,.04);--line:rgba(255,255,255,.09);--tx:#eef0ff;--mut:#9aa1c7;--c1:#12b5d6;--c2:#3b82e0;--c3:#7c3aed;--c4:#4f35d1;--g:linear-gradient(100deg,var(--c1),var(--c2) 32%,var(--c3) 68%,var(--c4));--r:24px;--w:1200px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,"Noto Sans Arabic","Noto Kufi Arabic",Arial,sans-serif;line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0}
+svg{display:block}
+.ic{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.wrap{width:100%;max-width:var(--w);margin-inline:auto;padding-inline:clamp(16px,4vw,32px)}
+.g{background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+#bar{position:fixed;inset:0 0 auto 0;height:3px;background:var(--g);transform-origin:0 50%;transform:scaleX(0);z-index:100}
+[dir=rtl] #bar{transform-origin:100% 50%}
+#glow{position:fixed;left:0;top:0;width:520px;height:520px;margin:-260px 0 0 -260px;border-radius:50%;background:radial-gradient(circle,rgba(124,58,237,.16),rgba(18,181,214,.07) 45%,transparent 70%);pointer-events:none;z-index:0;opacity:0;transition:opacity .4s;will-change:transform}
+body.fine #glow{opacity:1}
+.bgfx{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(900px 600px at 85% -10%,rgba(79,53,209,.35),transparent 60%),radial-gradient(800px 600px at 5% 15%,rgba(18,181,214,.18),transparent 60%),var(--bg)}
+.bgfx::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(ellipse at 50% 20%,#000,transparent 70%);mask-image:radial-gradient(ellipse at 50% 20%,#000,transparent 70%)}
+
+header{position:fixed;inset:0 0 auto 0;z-index:90;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+header.sc{background:rgba(6,7,20,.78);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.25rem;direction:ltr}
+.brand svg{width:34px;height:38px}
+.brand b{background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:800}
+.brand span{color:#c9b8ff;font-weight:400}
+.links{display:flex;gap:6px;align-items:center}
+.links a{padding:8px 14px;border-radius:99px;color:var(--mut);font-size:.95rem;transition:color .2s,background .2s}
+.links a:hover{color:#fff;background:var(--card)}
+.tools{display:flex;gap:10px;align-items:center}
+.lang{height:40px;padding:0 14px;border:1px solid var(--line);border-radius:99px;font-size:.85rem;font-weight:600;color:var(--mut);transition:.2s}
+.lang:hover{color:#fff;border-color:rgba(255,255,255,.25)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:50px;padding:0 26px;border-radius:99px;font-weight:700;font-size:1rem;position:relative;transition:transform .25s,box-shadow .25s,background .25s;white-space:nowrap}
+.btn .ic{font-size:1.15em}
+.btn.p{background:var(--g);background-size:160% 100%;color:#fff;box-shadow:0 10px 34px -8px rgba(124,58,237,.7)}
+.btn.p:hover{transform:translateY(-2px);background-position:100% 0;box-shadow:0 16px 44px -8px rgba(124,58,237,.9)}
+.btn.o{border:1px solid var(--line);background:var(--card)}
+.btn.o:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.07)}
+.btn.s{height:42px;padding:0 20px;font-size:.92rem}
+[dir=rtl] .arr{transform:scaleX(-1)}
+.burger{display:none;width:42px;height:42px;border:1px solid var(--line);border-radius:12px;font-size:20px;align-items:center;justify-content:center}
+
+section{position:relative;padding-block:clamp(72px,10vw,130px)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border:1px solid var(--line);background:var(--card);border-radius:99px;font-size:.85rem;color:#c8cdf0}
+.eyebrow i{width:8px;height:8px;border-radius:50%;background:var(--c1);box-shadow:0 0 0 0 rgba(18,181,214,.7);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(18,181,214,0)}100%{box-shadow:0 0 0 0 rgba(18,181,214,0)}}
+h1,h2,h3{line-height:1.2;font-weight:800}
+:lang(en) h1,:lang(en) h2{letter-spacing:-.02em}
+h2{font-size:clamp(1.9rem,4.4vw,3.2rem);margin-top:18px}
+.sh{max-width:720px;margin-bottom:clamp(36px,5vw,64px)}
+.sh p{color:var(--mut);margin-top:16px;font-size:1.08rem}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{line-height:1.35}
+
+.hero{min-height:100svh;display:flex;align-items:center;padding-top:110px;padding-bottom:70px;overflow:clip}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(20px,4vw,60px);align-items:center;width:100%}
+h1{font-size:clamp(2.3rem,5.4vw,4.7rem);margin:22px 0}
+.hero p.lead{font-size:clamp(1.02rem,1.5vw,1.2rem);color:var(--mut);max-width:560px}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.chips{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:38px;color:var(--mut);font-size:.92rem}
+.chips span{display:inline-flex;align-items:center;gap:8px}
+.chips .ic{color:var(--c1);font-size:1.15em}
+
+.vis{position:relative;aspect-ratio:1;width:100%;max-width:560px;margin-inline:auto}
+.ring{position:absolute;inset:0;margin:auto;border-radius:50%;border:1px dashed rgba(255,255,255,.14)}
+.r1{width:62%;height:62%;animation:spin 40s linear infinite}
+.r2{width:84%;height:84%;animation:spin 70s linear infinite reverse;border-color:rgba(124,58,237,.35)}
+.r3{width:100%;height:100%;border-style:solid;border-color:rgba(255,255,255,.05)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.halo{position:absolute;inset:18%;border-radius:50%;background:conic-gradient(from 90deg,var(--c1),var(--c3),var(--c4),var(--c1));filter:blur(70px);opacity:.5;animation:spin 18s linear infinite}
+.robot{position:absolute;inset:0;display:grid;place-items:center}
+.robot .bob{width:60%;animation:bob 5s ease-in-out infinite}
+.robot svg{width:100%;height:auto;filter:drop-shadow(0 30px 50px rgba(79,53,209,.55))}
+@keyframes bob{50%{transform:translateY(-12px)}}
+.fi{position:absolute;width:0;height:0;will-change:transform}
+.fi i{position:absolute;display:grid;place-items:center;width:var(--s,64px);height:var(--s,64px);margin:calc(var(--s,64px)/-2) 0 0 calc(var(--s,64px)/-2);border-radius:calc(var(--s,64px)*.32);font-size:calc(var(--s,64px)*.42);color:var(--a,#67e8f9);background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14);box-shadow:0 18px 40px -12px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.18);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);animation:fl 6s ease-in-out infinite;animation-delay:var(--dl,0s)}
+@keyframes fl{50%{transform:translateY(-14px) rotate(4deg)}}
+.far .fi i{opacity:.55;filter:blur(.4px)}
+
+.mq{padding-block:26px;border-block:1px solid var(--line);background:rgba(255,255,255,.015);overflow:hidden;direction:ltr}
+.mt{display:flex;gap:14px;width:max-content;animation:mq 38s linear infinite}
+.mq:hover .mt{animation-play-state:paused}
+@keyframes mq{to{transform:translateX(-50%)}}
+.mt span{padding:10px 22px;border:1px solid var(--line);border-radius:99px;color:var(--mut);font-weight:600;font-size:.95rem;white-space:nowrap;background:var(--card)}
+
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{position:relative;padding:32px;border-radius:var(--r);background:linear-gradient(160deg,rgba(255,255,255,.06),rgba(255,255,255,.015));border:1px solid var(--line);overflow:hidden;transition:transform .35s,border-color .35s}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(360px circle at var(--mx,50%) var(--my,0%),rgba(124,58,237,.22),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover{transform:translateY(-6px);border-color:rgba(124,58,237,.45)}
+.card:hover::before{opacity:1}
+.ico{display:grid;place-items:center;width:58px;height:58px;border-radius:18px;font-size:26px;color:#fff;background:var(--g);box-shadow:0 12px 30px -8px rgba(124,58,237,.7);margin-bottom:22px}
+.card h3{font-size:1.3rem;margin-bottom:10px}
+.card p{color:var(--mut);font-size:.98rem}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tags span{padding:4px 12px;border-radius:99px;font-size:.78rem;border:1px solid var(--line);color:#b9bfe6;background:rgba(255,255,255,.03)}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
+.step{position:relative;padding:28px 24px;border-radius:var(--r);border:1px solid var(--line);background:var(--card)}
+.step::before{counter-increment:s;content:"0" counter(s);display:block;font-size:2.6rem;font-weight:800;line-height:1;margin-bottom:16px;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent;font-family:system-ui,sans-serif}
+.step h3{font-size:1.15rem;margin-bottom:8px}
+.step p{color:var(--mut);font-size:.94rem}
+
+.pf{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.pc{display:block;border-radius:28px;border:1px solid var(--line);background:linear-gradient(160deg,rgba(255,255,255,.06),rgba(255,255,255,.015));padding:14px;transition:transform .2s ease-out,border-color .3s,box-shadow .3s;transform-style:preserve-3d;will-change:transform}
+.pc:hover{border-color:rgba(124,58,237,.5);box-shadow:0 40px 80px -30px rgba(79,53,209,.55)}
+.frame{border-radius:16px;overflow:hidden;background:#0b0c1c;border:1px solid var(--line);position:relative}
+.fb{display:flex;align-items:center;gap:6px;padding:10px 14px;background:rgba(255,255,255,.05);direction:ltr}
+.fb i{width:10px;height:10px;border-radius:50%;background:#ff5f57}
+.fb i:nth-child(2){background:#febc2e}
+.fb i:nth-child(3){background:#28c840}
+.fb em{margin-inline-start:10px;flex:1;font-style:normal;font-size:.74rem;color:var(--mut);background:rgba(0,0,0,.35);padding:3px 12px;border-radius:99px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.shot{position:relative;aspect-ratio:16/10;overflow:hidden}
+.shot svg,.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top}
+.shot svg,.shot img{transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.pc:hover .shot svg,.pc:hover .shot img{transform:scale(1.05)}
+.pi{padding:22px 12px 10px;display:flex;align-items:flex-end;justify-content:space-between;gap:16px}
+.pi h3{font-size:1.4rem}
+.pi p{color:var(--mut);font-size:.95rem;margin-top:6px;max-width:440px}
+.go{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;border:1px solid var(--line);font-size:22px;transition:.3s;flex:none}
+.pc:hover .go{background:var(--g);border-color:transparent;transform:rotate(-8deg) scale(1.08)}
+[dir=rtl] .go .ic{transform:scaleX(-1)}
+.more{margin-top:24px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:28px 32px;border-radius:var(--r);border:1px dashed rgba(255,255,255,.2);background:rgba(255,255,255,.02)}
+.more h3{font-size:1.25rem}
+.more p{color:var(--mut)}
+
+.demo{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,70px);align-items:center}
+.demo .sh{margin:0}
+.list{margin-top:26px;display:grid;gap:14px}
+.list li{list-style:none;display:flex;gap:12px;align-items:flex-start;color:#cfd3f3}
+.list .ic{color:var(--c1);font-size:1.3em;margin-top:3px}
+.mock{position:relative;border-radius:28px;border:1px solid var(--line);background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.015));padding:20px;box-shadow:0 50px 90px -40px rgba(79,53,209,.6)}
+.mh{display:flex;align-items:center;gap:12px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.mh svg{width:38px;height:42px}
+.mh b{display:block;line-height:1.2}
+.mh small{color:#4ade80;font-size:.78rem;display:flex;align-items:center;gap:6px}
+.mh small::before{content:"";width:7px;height:7px;border-radius:50%;background:#4ade80;box-shadow:0 0 10px #4ade80}
+.msgs{display:flex;flex-direction:column;gap:12px;padding:20px 0;min-height:250px}
+.m{max-width:84%;padding:11px 16px;border-radius:18px;font-size:.93rem;line-height:1.6;opacity:0;transform:translateY(10px) scale(.97);transition:opacity .4s,transform .4s}
+.m.on{opacity:1;transform:none}
+.m.u{align-self:flex-start;background:rgba(255,255,255,.08);border-end-start-radius:4px}
+.m.a{align-self:flex-end;background:linear-gradient(135deg,var(--c2),var(--c3));border-end-end-radius:4px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;padding-top:16px;border-top:1px solid var(--line)}
+.st{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:99px;font-size:.78rem;border:1px solid var(--line);color:var(--mut);transition:.4s}
+.st.on{color:#fff;border-color:rgba(18,181,214,.6);background:rgba(18,181,214,.15);box-shadow:0 0 20px -4px rgba(18,181,214,.6)}
+
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.stat{text-align:center;padding:34px 16px;border-radius:var(--r);border:1px solid var(--line);background:var(--card)}
+.stat b{display:block;direction:ltr;unicode-bidi:isolate;font-size:clamp(2.2rem,4.4vw,3.4rem);line-height:1.1;font-family:system-ui,sans-serif;font-weight:800}
+.stat span{color:var(--mut);font-size:.95rem}
+
+.ct{position:relative;border-radius:36px;padding:clamp(28px,5vw,64px);border:1px solid var(--line);background:linear-gradient(135deg,rgba(18,181,214,.12),rgba(124,58,237,.18) 50%,rgba(79,53,209,.2));overflow:hidden}
+.ct .cg{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,64px);align-items:start}
+.ct p.lead{color:#c3c8ea;margin-top:16px;font-size:1.05rem}
+.info{margin-top:28px;display:grid;gap:12px}
+.info a{display:flex;align-items:center;gap:12px;color:#e3e6ff;direction:ltr;justify-content:flex-end;width:max-content;max-width:100%}
+[dir=ltr] .info a{justify-content:flex-start}
+[dir=rtl] .info a{margin-inline-start:0;direction:ltr}
+.info .ic{font-size:1.3em;color:var(--c1)}
+form{display:grid;gap:14px;padding:26px;border-radius:24px;background:rgba(6,7,20,.6);border:1px solid var(--line);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:grid;gap:6px;font-size:.85rem;color:var(--mut)}
+input,select,textarea{width:100%;padding:13px 16px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.04);outline:0;transition:border-color .2s,background .2s;color:#fff}
+select option{background:#0d0f26;color:#fff}
+textarea{min-height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{border-color:var(--c2);background:rgba(255,255,255,.07)}
+.ok{display:none;color:#4ade80;font-size:.92rem}
+.ok.on{display:block}
+.bgi{position:absolute;inset:0;z-index:0;pointer-events:none}
+
+footer{border-top:1px solid var(--line);padding-block:40px;color:var(--mut);font-size:.92rem}
+.fr{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.fr nav{display:flex;gap:20px;flex-wrap:wrap}
+.fr a:hover{color:#fff}
+
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+
+@media(max-width:980px){
+.links{position:fixed;inset:72px 0 auto 0;flex-direction:column;align-items:stretch;gap:4px;padding:16px clamp(16px,4vw,32px) 24px;background:rgba(6,7,20,.96);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);transform:translateY(-12px);opacity:0;visibility:hidden;transition:.3s}
+.links.open{transform:none;opacity:1;visibility:visible}
+.links a{padding:14px 16px;font-size:1.05rem}
+.burger{display:flex}
+.nav .btn.s{display:none}
+.hg{grid-template-columns:1fr;text-align:center}
+.vis{order:-1;max-width:340px}
+.hero{padding-top:92px}
+.hero p.lead{margin-inline:auto}
+.cta,.chips{justify-content:center}
+.grid3{grid-template-columns:1fr 1fr}
+.steps{grid-template-columns:1fr 1fr}
+.demo,.ct .cg{grid-template-columns:1fr}
+.stats{grid-template-columns:1fr 1fr}
+}
+@media(max-width:680px){
+.grid3,.pf,.steps,.f2{grid-template-columns:1fr}
+.stats{grid-template-columns:1fr 1fr;gap:12px}
+.card{padding:26px}
+.pi{flex-direction:row}
+.btn{width:100%}
+.cta{flex-direction:column;align-items:stretch}
+.vis{max-width:300px}
+.fi.hm{display:none}
+.more{padding:22px}
+.more .btn{width:100%}
+.m{max-width:92%}
+.hero{min-height:auto}
+.fr{flex-direction:column;text-align:center}
+}
+@media(prefers-reduced-motion:reduce){
+*,*::before,*::after{animation:none!important;transition:none!important}
+.js .rv{opacity:1;transform:none}
+html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<defs>
+<linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12b5d6"/><stop offset=".35" stop-color="#3b82e0"/><stop offset=".7" stop-color="#7c3aed"/><stop offset="1" stop-color="#4f35d1"/></linearGradient>
+<linearGradient id="ga" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82e0"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+<symbol id="rb" viewBox="0 0 300 340"><rect x="143" y="40" width="14" height="40" fill="#7c3aed"/><circle cx="150" cy="30" r="18" fill="url(#ga)"/><circle cx="150" cy="30" r="7" fill="#fff"/><rect x="26" y="140" width="34" height="74" rx="17" fill="url(#ga)"/><rect x="240" y="140" width="34" height="74" rx="17" fill="#6d3be6"/><rect x="48" y="70" width="204" height="196" rx="84" fill="url(#gh)"/><path d="M92 118Q102 94 128 88" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="9" stroke-linecap="round"/><rect x="76" y="124" width="148" height="84" rx="42" fill="#0f0c26"/><ellipse cx="124" cy="166" rx="15" ry="23" fill="#67e8f9"/><ellipse cx="176" cy="166" rx="15" ry="23" fill="#67e8f9"/><circle cx="127" cy="156" r="5" fill="#fff"/><circle cx="179" cy="156" r="5" fill="#fff"/><path d="M128 234Q150 250 172 234" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/></symbol>
+<symbol id="i-bot" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="4"/><path d="M12 8V5M9 14h.01M15 14h.01M2 13v3M22 13v3"/><circle cx="12" cy="3.6" r="1.2"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4M14 5l-4 14"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3.5 3.5 3.5 14.500 0 18M12 3c-3.5 3.5-3.5 14.500 0 18"/></symbol>
+<symbol id="i-chip" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></symbol>
+<symbol id="i-flow" viewBox="0 0 24 24"><rect x="3" y="3" width="6" height="6" rx="1.5"/><rect x="15" y="3" width="6" height="6" rx="1.5"/><rect x="15" y="15" width="6" height="6" rx="1.5"/><path d="M9 6h6M18 9v6M6 9v6a3 3 0 003 3h6"/></symbol>
+<symbol id="i-spark" viewBox="0 0 24 24"><path d="M11 3l1.8 5.2L18 10l-5.2 1.8L11 17l-1.8-5.2L4 10l5.2-1.8z"/><path d="M19 15l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z"/></symbol>
+<symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
+<symbol id="i-plug" viewBox="0 0 24 24"><path d="M9 2v5M15 2v5M6 7h12v4a6 6 0 01-12 0zM12 17v5"/></symbol>
+<symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 100 18c1.500 0 2-1 1.500-2s0-2.500 1.500-2.500H17a4 4 0 004-4A9 9 0 0012 3z"/><path d="M7.500 11h.01M10 7.500h.01M14.500 7.500h.01"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.500l4.500 4.500L19 7"/></symbol>
+<symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+<symbol id="i-rocket" viewBox="0 0 24 24"><path d="M5 15c-1.500 1-2 4-2 6 2 0 5-.5 6-2M14 4c3-1 6-1 7-1 0 1 0 4-1 7l-7 7-6-6zM15 9h.01"/></symbol>
+</defs>
+</svg>
+
+<div class="bgfx"></div>
+<div id="bar"></div>
+<div id="glow"></div>
+
+<header id="hd">
+<div class="wrap nav">
+<a href="#top" class="brand" aria-label="Robotim tech"><svg><use href="#rb"/></svg><div><b>Robotim</b> <span>tech</span></div></a>
+<nav class="links" id="links">
+<a href="#services" data-i="n1">خدماتنا</a>
+<a href="#work" data-i="n2">أعمالنا</a>
+<a href="#process" data-i="n3">كيف نعمل</a>
+<a href="#agents" data-i="n4">الذكاء الاصطناعي</a>
+<a href="#contact" data-i="n5">تواصل معنا</a>
+</nav>
+<div class="tools">
+<button class="lang" id="lang" type="button" aria-label="Language">EN</button>
+<a href="#contact" class="btn p s"><span data-i="navcta">ابدأ مشروعك</span></a>
+<button class="burger" id="burger" type="button" aria-label="Menu"><svg class="ic"><use href="#i-menu"/></svg></button>
+</div>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="wrap hg">
+<div>
+<span class="eyebrow rv"><i></i><span data-i="eb">وكالة ذكاء اصطناعي · أتمتة · تصميم مواقع</span></span>
+<h1 class="rv" style="--d:.08s" data-i="h1" data-html>نبني <span class="g">مواقع فاخرة</span> وأنظمة ذكية تعمل بدلاً عنك</h1>
+<p class="lead rv" style="--d:.16s" data-i="lead">في روبوتيم تك نصمم مواقع إلكترونية فخمة وسريعة، ونبني وكلاء ذكاء اصطناعي وأتمتة تختصر وقتك وتضاعف مبيعاتك.</p>
+<div class="cta rv" style="--d:.24s">
+<a href="#contact" class="btn p"><span data-i="c1">ابدأ مشروعك</span><svg class="ic arr"><use href="#i-arrow"/></svg></a>
+<a href="#work" class="btn o"><span data-i="c2">شاهد أعمالنا</span></a>
+</div>
+<div class="chips rv" style="--d:.32s">
+<span><svg class="ic"><use href="#i-bolt"/></svg><b data-i="k1" style="font-weight:600">سرعة فائقة</b></span>
+<span><svg class="ic"><use href="#i-shield"/></svg><b data-i="k2" style="font-weight:600">تصميم مخصص 100%</b></span>
+<span><svg class="ic"><use href="#i-chat"/></svg><b data-i="k3" style="font-weight:600">دعم مستمر</b></span>
+</div>
+</div>
+
+<div class="vis px rv" style="--d:.15s">
+<div class="halo"></div>
+<div class="ring r3"></div>
+<div class="ring r2"></div>
+<div class="ring r1"></div>
+<div class="robot" data-d="0.35" data-rot="1"><div class="bob">
+<svg viewBox="0 0 300 340" aria-label="Robotim tech robot"><rect x="143" y="40" width="14" height="40" fill="#7c3aed"/><circle cx="150" cy="30" r="18" fill="url(#ga)"/><circle cx="150" cy="30" r="7" fill="#fff"/><rect x="26" y="140" width="34" height="74" rx="17" fill="url(#ga)"/><rect x="240" y="140" width="34" height="74" rx="17" fill="#6d3be6"/><rect x="48" y="70" width="204" height="196" rx="84" fill="url(#gh)"/><path d="M92 118Q102 94 128 88" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="9" stroke-linecap="round"/><rect x="76" y="124" width="148" height="84" rx="42" fill="#0f0c26"/><g id="eyes"><ellipse cx="124" cy="166" rx="15" ry="23" fill="#67e8f9"/><ellipse cx="176" cy="166" rx="15" ry="23" fill="#67e8f9"/><circle cx="127" cy="156" r="5" fill="#fff"/><circle cx="179" cy="156" r="5" fill="#fff"/></g><path d="M128 234Q150 250 172 234" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/></svg>
+</div></div>
+<div class="fi" data-d="1.3" style="left:12%;top:20%;--s:70px;--a:#67e8f9"><i style="--dl:-1s"><svg class="ic"><use href="#i-code"/></svg></i></div>
+<div class="fi" data-d="0.8" style="left:86%;top:18%;--s:62px;--a:#c4b5fd"><i style="--dl:-3s"><svg class="ic"><use href="#i-chat"/></svg></i></div>
+<div class="fi" data-d="1.6" style="left:93%;top:52%;--s:74px;--a:#93c5fd"><i style="--dl:-2s"><svg class="ic"><use href="#i-gear"/></svg></i></div>
+<div class="fi" data-d="1" style="left:82%;top:84%;--s:60px;--a:#fcd34d"><i style="--dl:-4s"><svg class="ic"><use href="#i-bolt"/></svg></i></div>
+<div class="fi" data-d="1.4" style="left:16%;top:78%;--s:68px;--a:#67e8f9"><i style="--dl:-5s"><svg class="ic"><use href="#i-globe"/></svg></i></div>
+<div class="fi" data-d="0.7" style="left:4%;top:50%;--s:58px;--a:#a78bfa"><i style="--dl:-2.5s"><svg class="ic"><use href="#i-chip"/></svg></i></div>
+<div class="fi hm" data-d="1.9" style="left:50%;top:3%;--s:54px;--a:#f9a8d4"><i style="--dl:-1.5s"><svg class="ic"><use href="#i-spark"/></svg></i></div>
+<div class="fi hm" data-d="1.1" style="left:52%;top:96%;--s:56px;--a:#6ee7b7"><i style="--dl:-3.5s"><svg class="ic"><use href="#i-flow"/></svg></i></div>
+</div>
+</div>
+</section>
+
+<div class="mq" aria-hidden="true"><div class="mt" id="mt">
+<span>OpenAI</span><span>Claude</span><span>n8n</span><span>Make</span><span>Zapier</span><span>WhatsApp API</span><span>React</span><span>Next.js</span><span>Shopify</span><span>WordPress</span><span>Python</span><span>Supabase</span><span>Stripe</span><span>Node.js</span>
+</div></div>
+
+<section id="services" class="below">
+<div class="wrap">
+<div class="sh">
+<span class="eyebrow rv" data-i="s0">خدماتنا</span>
+<h2 class="rv" data-i="s1" data-html>كل ما يحتاجه عملك <span class="g">في مكان واحد</span></h2>
+<p class="rv" data-i="s2">من الموقع الأول وحتى الأنظمة الذكية التي تدير أعمالك، نغطي الرحلة كاملة بجودة عالية.</p>
+</div>
+<div class="grid3">
+<article class="card rv"><div class="ico"><svg class="ic"><use href="#i-globe"/></svg></div><h3 data-i="a1">تصميم المواقع الإلكترونية</h3><p data-i="a1p">مواقع فخمة فائقة السرعة ومتجاوبة مع كل الأجهزة، مصممة لتحويل الزوار إلى عملاء.</p><div class="tags"><span data-i="a1t1">مواقع تعريفية</span><span data-i="a1t2">متاجر</span><span data-i="a1t3">صفحات هبوط</span></div></article>
+<article class="card rv" style="--d:.1s"><div class="ico"><svg class="ic"><use href="#i-bot"/></svg></div><h3 data-i="a2">وكلاء الذكاء الاصطناعي</h3><p data-i="a2p">وكلاء أذكياء يردون على عملائك ويؤهلون العملاء المحتملين وينفذون المهام على مدار الساعة.</p><div class="tags"><span data-i="a2t1">شات بوت</span><span data-i="a2t2">واتساب</span><span data-i="a2t3">مساعد صوتي</span></div></article>
+<article class="card rv" style="--d:.2s"><div class="ico"><svg class="ic"><use href="#i-flow"/></svg></div><h3 data-i="a3">أتمتة الأعمال</h3><p data-i="a3p">نربط أدواتك وننهي المهام المتكررة تلقائياً، من الفواتير والمتابعات إلى التقارير.</p><div class="tags"><span>n8n</span><span>Make</span><span>API</span></div></article>
+<article class="card rv"><div class="ico"><svg class="ic"><use href="#i-palette"/></svg></div><h3 data-i="a4">تصميم الواجهات والهوية</h3><p data-i="a4p">هوية بصرية وتجربة مستخدم راقية تعكس قيمة علامتك وتبقى في ذاكرة عملائك.</p><div class="tags"><span>UI / UX</span><span data-i="a4t">هوية بصرية</span></div></article>
+<article class="card rv" style="--d:.1s"><div class="ico"><svg class="ic"><use href="#i-plug"/></svg></div><h3 data-i="a5">التكامل مع الأنظمة</h3><p data-i="a5p">نربط موقعك ووكلاءك مع CRM وأنظمة الدفع والتقويم وكل ما تستخدمه يومياً.</p><div class="tags"><span>CRM</span><span>Stripe</span><span>Calendar</span></div></article>
+<article class="card rv" style="--d:.2s"><div class="ico"><svg class="ic"><use href="#i-search"/></svg></div><h3 data-i="a6">السرعة وتحسين الظهور</h3><p data-i="a6p">أداء مثالي وتحسين محركات البحث ليظهر موقعك أولاً ويفتح في لحظة.</p><div class="tags"><span>SEO</span><span>Core Web Vitals</span></div></article>
+</div>
+</div>
+</section>
+
+<section id="work" class="below">
+<div class="wrap">
+<div class="sh">
+<span class="eyebrow rv" data-i="w0">معرض الأعمال</span>
+<h2 class="rv" data-i="w1" data-html>مشاريع <span class="g">تتحدث عن نفسها</span></h2>
+<p class="rv" data-i="w2">نماذج حقيقية من أعمالنا. اضغط على أي مشروع لتزوره مباشرة.</p>
+</div>
+<div class="pf">
+<a class="pc rv" href="https://neura-academy.higgsfield.app/" target="_blank" rel="noopener">
+<div class="frame"><div class="fb"><i></i><i></i><i></i><em>neura-academy.higgsfield.app</em></div>
+<div class="shot">
+<svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="n1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b0b45"/><stop offset="1" stop-color="#0a1a52"/></linearGradient><radialGradient id="n2"><stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#6d3be6"/><stop offset="1" stop-color="#6d3be6" stop-opacity="0"/></radialGradient></defs><rect width="640" height="400" fill="url(#n1)"/><circle cx="470" cy="150" r="150" fill="url(#n2)" opacity=".7"/><circle cx="470" cy="150" r="78" fill="none" stroke="#67e8f9" stroke-opacity=".6" stroke-width="2"/><circle cx="470" cy="150" r="112" fill="none" stroke="#fff" stroke-opacity=".2" stroke-dasharray="4 8"/><circle cx="470" cy="150" r="30" fill="#67e8f9"/><rect x="40" y="26" width="60" height="12" rx="6" fill="#fff"/><rect x="380" y="26" width="40" height="10" rx="5" fill="#fff" opacity=".4"/><rect x="436" y="26" width="40" height="10" rx="5" fill="#fff" opacity=".4"/><rect x="492" y="26" width="40" height="10" rx="5" fill="#fff" opacity=".4"/><rect x="556" y="20" width="60" height="22" rx="11" fill="#7c3aed"/><rect x="40" y="96" width="240" height="22" rx="11" fill="#fff"/><rect x="40" y="132" width="190" height="22" rx="11" fill="#fff"/><rect x="40" y="176" width="260" height="9" rx="4" fill="#fff" opacity=".4"/><rect x="40" y="194" width="220" height="9" rx="4" fill="#fff" opacity=".4"/><rect x="40" y="226" width="116" height="36" rx="18" fill="#7c3aed"/><rect x="168" y="226" width="96" height="36" rx="18" fill="none" stroke="#fff" stroke-opacity=".4"/><g><rect x="40" y="296" width="170" height="86" rx="14" fill="#fff" opacity=".08"/><rect x="235" y="296" width="170" height="86" rx="14" fill="#fff" opacity=".08"/><rect x="430" y="296" width="170" height="86" rx="14" fill="#fff" opacity=".08"/><circle cx="62" cy="320" r="10" fill="#67e8f9"/><circle cx="257" cy="320" r="10" fill="#a78bfa"/><circle cx="452" cy="320" r="10" fill="#f9a8d4"/><rect x="56" y="346" width="100" height="8" rx="4" fill="#fff" opacity=".6"/><rect x="251" y="346" width="100" height="8" rx="4" fill="#fff" opacity=".6"/><rect x="446" y="346" width="100" height="8" rx="4" fill="#fff" opacity=".6"/></g></svg>
+<img src="img/neura.webp" alt="Neura Academy" loading="lazy" decoding="async" onerror="this.remove()">
+</div></div>
+<div class="pi"><div><h3>Neura Academy</h3><p data-i="p1">موقع سينمائي لأكاديمية الذكاء الاصطناعي: روبوت ثلاثي الأبعاد يدرس ويتخرّج مع تمرير الصفحة، وحركة تتفاعل مع المؤشر.</p><div class="tags"><span data-i="pt1">تصميم موقع</span><span data-i="pt2">تعليم</span><span data-i="pt4">فيلم ثلاثي الأبعاد</span></div></div><span class="go"><svg class="ic"><use href="#i-ext"/></svg></span></div>
+</a>
+<a class="pc rv" style="--d:.12s" href="https://shawarma-alhunaini.higgsfield.app/" target="_blank" rel="noopener">
+<div class="frame"><div class="fb"><i></i><i></i><i></i><em>shawarma-alhunaini.higgsfield.app</em></div>
+<div class="shot">
+<svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="s1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a0d06"/><stop offset="1" stop-color="#4a1708"/></linearGradient><radialGradient id="s2"><stop offset="0" stop-color="#fbbf24"/><stop offset=".6" stop-color="#ea580c"/><stop offset="1" stop-color="#b91c1c"/></radialGradient></defs><rect width="640" height="400" fill="url(#s1)"/><circle cx="470" cy="160" r="130" fill="url(#s2)"/><circle cx="470" cy="160" r="96" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2"/><path d="M420 190Q470 90 530 150Q500 220 420 190Z" fill="#fde68a" opacity=".9"/><path d="M432 178Q470 120 512 154" fill="none" stroke="#b45309" stroke-width="8" stroke-linecap="round"/><circle cx="440" cy="150" r="9" fill="#16a34a"/><circle cx="500" cy="190" r="8" fill="#dc2626"/><rect x="40" y="26" width="70" height="12" rx="6" fill="#fde68a"/><rect x="400" y="26" width="40" height="10" rx="5" fill="#fff" opacity=".4"/><rect x="456" y="26" width="40" height="10" rx="5" fill="#fff" opacity=".4"/><rect x="512" y="26" width="40" height="10" rx="5" fill="#fff" opacity=".4"/><rect x="570" y="20" width="50" height="22" rx="11" fill="#ea580c"/><rect x="40" y="96" width="250" height="24" rx="12" fill="#fde68a"/><rect x="40" y="134" width="170" height="24" rx="12" fill="#fde68a"/><rect x="40" y="180" width="250" height="9" rx="4" fill="#fff" opacity=".4"/><rect x="40" y="198" width="200" height="9" rx="4" fill="#fff" opacity=".4"/><rect x="40" y="230" width="124" height="38" rx="19" fill="#ea580c"/><rect x="40" y="296" width="170" height="86" rx="14" fill="#fff" opacity=".08"/><rect x="235" y="296" width="170" height="86" rx="14" fill="#fff" opacity=".08"/><rect x="430" y="296" width="170" height="86" rx="14" fill="#fff" opacity=".08"/><circle cx="62" cy="322" r="12" fill="#fbbf24"/><circle cx="257" cy="322" r="12" fill="#ea580c"/><circle cx="452" cy="322" r="12" fill="#dc2626"/><rect x="56" y="350" width="100" height="8" rx="4" fill="#fde68a" opacity=".7"/><rect x="251" y="350" width="100" height="8" rx="4" fill="#fde68a" opacity=".7"/><rect x="446" y="350" width="100" height="8" rx="4" fill="#fde68a" opacity=".7"/></svg>
+<img src="img/shawarma.webp" alt="Shawarma Alhunaini" loading="lazy" decoding="async" onerror="this.remove()">
+</div></div>
+<div class="pi"><div><h3>Shawarma Alhunaini</h3><p data-i="p2">موقع مطعم بتجربة سينمائية: تُقطَّع الشاورما مع تمريرك للصفحة، بهوية داكنة وذهبية تفتح الشهية وتزيد الطلبات.</p><div class="tags"><span data-i="pt1">تصميم موقع</span><span data-i="pt3">مطاعم</span><span data-i="pt5">حركة مع التمرير</span></div></div><span class="go"><svg class="ic"><use href="#i-ext"/></svg></span></div>
+</a>
+</div>
+<div class="more rv">
+<div><h3 data-i="m1">مشروعك هو التالي</h3><p data-i="m2">أخبرنا بفكرتك ونحوّلها إلى موقع أو نظام ذكي يليق بعلامتك.</p></div>
+<a href="#contact" class="btn p"><span data-i="c1">ابدأ مشروعك</span><svg class="ic arr"><use href="#i-arrow"/></svg></a>
+</div>
+</div>
+</section>
+
+<section id="agents" class="below">
+<div class="wrap demo">
+<div class="sh">
+<span class="eyebrow rv" data-i="g0">وكلاء الذكاء الاصطناعي</span>
+<h2 class="rv" data-i="g1" data-html>موظف ذكي لا ينام، <span class="g">ولا يُخطئ</span></h2>
+<p class="rv" data-i="g2">نبني وكلاء مخصصين لعملك يفهمون عملاءك، يتحدثون بلغتهم، وينفذون المهام فعلياً داخل أنظمتك.</p>
+<ul class="list rv">
+<li><svg class="ic"><use href="#i-check"/></svg><span data-i="g3">ردود فورية على العملاء 24/7 عبر واتساب والموقع</span></li>
+<li><svg class="ic"><use href="#i-check"/></svg><span data-i="g4">حجز المواعيد وتأهيل العملاء المحتملين تلقائياً</span></li>
+<li><svg class="ic"><use href="#i-check"/></svg><span data-i="g5">تكامل كامل مع CRM والتقويم والدفع والتقارير</span></li>
+</ul>
+</div>
+<div class="mock rv" id="chat" style="--d:.12s">
+<div class="mh"><svg><use href="#rb"/></svg><div><b>Robotim Agent</b><small data-i="on">متصل الآن</small></div></div>
+<div class="msgs">
+<div class="m u" data-i="d1">مرحباً، أريد حجز موعد غداً</div>
+<div class="m a" data-i="d2">أهلاً بك! عندي موعد 4:00 م أو 6:30 م. أيهما يناسبك؟</div>
+<div class="m u" data-i="d3">6:30 م من فضلك</div>
+<div class="m a" data-i="d4">تم الحجز بنجاح ✓ وأرسلت لك التأكيد على واتساب.</div>
+</div>
+<div class="flow">
+<span class="st"><svg class="ic"><use href="#i-chat"/></svg><span data-i="f1">استلام الرسالة</span></span>
+<span class="st"><svg class="ic"><use href="#i-spark"/></svg><span data-i="f2">فهم الطلب</span></span>
+<span class="st"><svg class="ic"><use href="#i-layout"/></svg><span data-i="f3">تحديث التقويم</span></span>
+<span class="st"><svg class="ic"><use href="#i-plug"/></svg>CRM</span>
+<span class="st"><svg class="ic"><use href="#i-bolt"/></svg><span data-i="f4">تأكيد فوري</span></span>
+</div>
+</div>
+</div>
+</section>
+
+<section id="process" class="below">
+<div class="wrap">
+<div class="sh">
+<span class="eyebrow rv" data-i="q0">كيف نعمل</span>
+<h2 class="rv" data-i="q1" data-html>من الفكرة إلى الإطلاق <span class="g">في خطوات واضحة</span></h2>
+</div>
+<div class="steps">
+<div class="step rv"><h3 data-i="q2">الاكتشاف</h3><p data-i="q2p">نفهم عملك وأهدافك وجمهورك لنضع خطة دقيقة.</p></div>
+<div class="step rv" style="--d:.08s"><h3 data-i="q3">التصميم</h3><p data-i="q3p">نصمم تجربة فريدة بهوية علامتك قبل كتابة أي كود.</p></div>
+<div class="step rv" style="--d:.16s"><h3 data-i="q4">البناء</h3><p data-i="q4p">نطوّر بأحدث التقنيات وبأعلى معايير السرعة والأمان.</p></div>
+<div class="step rv" style="--d:.24s"><h3 data-i="q5">الإطلاق والدعم</h3><p data-i="q5p">نطلق مشروعك ونبقى معك للتحسين والتطوير المستمر.</p></div>
+</div>
+</div>
+</section>
+
+<section class="below" style="padding-block:0 clamp(72px,10vw,130px)">
+<div class="wrap stats">
+<div class="stat rv"><b class="g">24/7</b><span data-i="t1">وكلاء يعملون بلا توقف</span></div>
+<div class="stat rv" style="--d:.08s"><b class="g">&lt;1s</b><span data-i="t2">زمن تحميل الصفحات</span></div>
+<div class="stat rv" style="--d:.16s"><b class="g">100%</b><span data-i="t3">تصميم مخصص لكل عميل</span></div>
+<div class="stat rv" style="--d:.24s"><b class="g">0</b><span data-i="t4">قوالب جاهزة</span></div>
+</div>
+</section>
+
+<section id="contact" class="below" style="padding-top:0">
+<div class="wrap">
+<div class="ct px">
+<div class="bgi">
+<div class="fi" data-d="1.2" style="left:6%;top:12%;--s:56px;--a:#67e8f9"><i><svg class="ic"><use href="#i-rocket"/></svg></i></div>
+<div class="fi" data-d="1.8" style="left:94%;top:88%;--s:64px;--a:#c4b5fd"><i style="--dl:-2s"><svg class="ic"><use href="#i-spark"/></svg></i></div>
+<div class="fi hm" data-d="1" style="left:48%;top:94%;--s:48px;--a:#fcd34d"><i style="--dl:-4s"><svg class="ic"><use href="#i-bolt"/></svg></i></div>
+</div>
+<div class="cg">
+<div>
+<span class="eyebrow rv" data-i="x0">تواصل معنا</span>
+<h2 class="rv" data-i="x1" data-html>جاهز لتبني <span class="g">مشروعك القادم؟</span></h2>
+<p class="lead rv" data-i="x2">أرسل لنا تفاصيل فكرتك وسنعود إليك بخطة وعرض واضح في أقرب وقت.</p>
+<div class="info rv">
+<a href="mailto:info@robotimtech.com"><svg class="ic"><use href="#i-mail"/></svg>info@robotimtech.com</a>
+<a href="https://robotimtech.com"><svg class="ic"><use href="#i-globe"/></svg>robotimtech.com</a>
+</div>
+</div>
+<form id="form" class="rv" style="--d:.1s" novalidate>
+<div class="f2">
+<label><span data-i="y1">الاسم</span><input name="n" required autocomplete="name"></label>
+<label><span data-i="y2">البريد أو الهاتف</span><input name="c" required autocomplete="email"></label>
+</div>
+<label><span data-i="y3">الخدمة المطلوبة</span>
+<select name="s"><option data-i="o1">تصميم موقع إلكتروني</option><option data-i="o2">وكيل ذكاء اصطناعي</option><option data-i="o3">أتمتة الأعمال</option><option data-i="o4">أخرى</option></select></label>
+<label><span data-i="y4">تفاصيل المشروع</span><textarea name="m" required></textarea></label>
+<button class="btn p" type="submit"><span data-i="y5">أرسل الطلب</span><svg class="ic arr"><use href="#i-arrow"/></svg></button>
+<p class="ok" id="ok" data-i="y6">شكراً لك! جهّزنا رسالتك، أكمل الإرسال وسنتواصل معك قريباً.</p>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap fr">
+<a href="#top" class="brand" aria-label="Robotim tech"><svg><use href="#rb"/></svg><div><b>Robotim</b> <span>tech</span></div></a>
+<nav><a href="#services" data-i="n1">خدماتنا</a><a href="#work" data-i="n2">أعمالنا</a><a href="#agents" data-i="n4">الذكاء الاصطناعي</a><a href="#contact" data-i="n5">تواصل معنا</a></nav>
+<span>© 2026 Robotim tech · <span data-i="rights">جميع الحقوق محفوظة</span></span>
+</div>
+</footer>
+
+<script>
+(()=>{
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const WA='';
+const MAIL='info@robotimtech.com';
+const EN={
+title:'Robotim tech | AI Agency, Automation & Web Design',
+n1:'Services',n2:'Work',n3:'Process',n4:'AI Agents',n5:'Contact',navcta:'Start a project',
+eb:'AI Agency · Automation · Web Design',
+h1:'We build <span class="g">premium websites</span> and smart systems that work for you',
+lead:'At Robotim tech we design fast, luxurious websites and build AI agents and automation that save your time and multiply your sales.',
+c1:'Start your project',c2:'See our work',k1:'Blazing speed',k2:'100% custom design',k3:'Ongoing support',
+s0:'Our services',s1:'Everything your business needs <span class="g">in one place</span>',s2:'From your first website to the smart systems that run your operations, we cover the full journey with top quality.',
+a1:'Website Design',a1p:'Luxurious, ultra-fast, fully responsive websites designed to turn visitors into customers.',a1t1:'Corporate sites',a1t2:'Online stores',a1t3:'Landing pages',
+a2:'AI Agents',a2p:'Smart agents that answer your customers, qualify leads and execute tasks around the clock.',a2t1:'Chatbots',a2t2:'WhatsApp',a2t3:'Voice assistants',
+a3:'Business Automation',a3p:'We connect your tools and eliminate repetitive work, from invoices and follow-ups to reports.',
+a4:'UI & Brand Identity',a4p:'A refined visual identity and user experience that reflects your brand value and stays in your customers\' minds.',a4t:'Brand identity',
+a5:'System Integration',a5p:'We connect your website and agents with your CRM, payments, calendar and everything you use daily.',
+a6:'Speed & Visibility',a6p:'Perfect performance and SEO so your site ranks first and opens instantly.',
+w0:'Portfolio',w1:'Projects that <span class="g">speak for themselves</span>',w2:'Real samples of our work. Click any project to visit it live.',
+p1:'A cinematic website for an AI academy: a 3D robot studies and graduates as you scroll, with pointer-reactive motion.',p2:'A cinematic restaurant website: the shawarma is carved as you scroll, in a dark and golden identity that boosts appetite and orders.',
+pt1:'Web design',pt4:'3D film',pt5:'Scroll animation',pt2:'Education',pt3:'Restaurants',m1:'Your project is next',m2:'Tell us your idea and we turn it into a website or smart system worthy of your brand.',
+g0:'AI Agents',g1:'A smart employee that never sleeps, <span class="g">never slips</span>',g2:'We build custom agents that understand your customers, speak their language and execute tasks inside your systems.',
+g3:'Instant replies to customers 24/7 on WhatsApp and your website',g4:'Automatic appointment booking and lead qualification',g5:'Full integration with CRM, calendar, payments and reports',
+on:'Online now',d1:'Hi, I want to book an appointment tomorrow',d2:'Welcome! I have 4:00 PM or 6:30 PM. Which suits you?',d3:'6:30 PM please',d4:'Booked successfully ✓ I sent the confirmation to your WhatsApp.',
+f1:'Message received',f2:'Understand intent',f3:'Update calendar',f4:'Instant confirmation',
+q0:'How we work',q1:'From idea to launch <span class="g">in clear steps</span>',
+q2:'Discovery',q2p:'We learn your business, goals and audience to build a precise plan.',q3:'Design',q3p:'We craft a unique experience with your brand identity before writing any code.',q4:'Build',q4p:'We develop with modern technology and the highest speed and security standards.',q5:'Launch & support',q5p:'We launch your project and stay with you for continuous improvement.',
+t1:'Agents working non-stop',t2:'Page load time',t3:'Custom design for every client',t4:'Ready-made templates',
+x0:'Contact us',x1:'Ready to build <span class="g">your next project?</span>',x2:'Send us your idea and we will come back with a clear plan and quote as soon as possible.',
+y1:'Name',y2:'Email or phone',y3:'Service needed',y4:'Project details',y5:'Send request',y6:'Thank you! Your message is ready, complete sending and we will reach out soon.',
+o1:'Website design',o2:'AI agent',o3:'Business automation',o4:'Other',rights:'All rights reserved'
+};
+const AR={};
+const els=$$('[data-i]');
+els.forEach(e=>{AR[e.dataset.i]=AR[e.dataset.i]||(e.hasAttribute('data-html')?e.innerHTML:e.textContent)});
+const metaD=$('meta[name=description]');
+AR.title=document.title;
+let lang='ar';
+function setLang(l){
+lang=l;
+const d=l==='ar'?AR:EN;
+els.forEach(e=>{const v=d[e.dataset.i];if(v==null)return;if(e.hasAttribute('data-html'))e.innerHTML=v;else e.textContent=v});
+document.documentElement.lang=l;
+document.documentElement.dir=l==='ar'?'rtl':'ltr';
+document.title=d.title;
+$('#lang').textContent=l==='ar'?'EN':'عربي';
+try{localStorage.setItem('rt-lang',l)}catch(e){}
+}
+$('#lang').addEventListener('click',()=>setLang(lang==='ar'?'en':'ar'));
+let saved=null;
+try{saved=localStorage.getItem('rt-lang')}catch(e){}
+if(saved==='en')setLang('en');
+
+const mt=$('#mt');
+mt.innerHTML+=mt.innerHTML;
+
+const hd=$('#hd'),bar=$('#bar'),links=$('#links'),burger=$('#burger');
+let tick=false;
+function onScroll(){
+if(tick)return;tick=true;
+requestAnimationFrame(()=>{
+const y=scrollY,h=document.documentElement.scrollHeight-innerHeight;
+hd.classList.toggle('sc',y>10);
+bar.style.transform='scaleX('+(h>0?y/h:0)+')';
+tick=false;
+});
+}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+function toggle(o){
+links.classList.toggle('open',o);
+burger.innerHTML='<svg class="ic"><use href="#'+(o?'i-x':'i-menu')+'"/></svg>';
+}
+burger.addEventListener('click',()=>toggle(!links.classList.contains('open')));
+links.addEventListener('click',e=>{if(e.target.closest('a'))toggle(false)});
+
+const io=new IntersectionObserver(es=>{
+es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}});
+},{rootMargin:'0px 0px -8% 0px',threshold:.05});
+$$('.rv').forEach(e=>io.observe(e));
+
+const fine=matchMedia('(hover:hover) and (pointer:fine)').matches;
+const coarse=matchMedia('(pointer:coarse)').matches;
+const still=matchMedia('(prefers-reduced-motion:reduce)').matches;
+if(fine)document.body.classList.add('fine');
+
+let tx=0,ty=0,cx=0,cy=0,last=0;
+const glow=$('#glow'),eyes=$('#eyes');
+addEventListener('pointermove',e=>{
+tx=(e.clientX/innerWidth-.5)*2;
+ty=(e.clientY/innerHeight-.5)*2;
+last=performance.now();
+if(fine)glow.style.transform='translate3d('+e.clientX+'px,'+e.clientY+'px,0)';
+},{passive:true});
+document.addEventListener('pointerleave',()=>{tx=0;ty=0});
+
+const groups=$$('.px').map(g=>({g,els:$$('[data-d]',g),on:false}));
+const gio=new IntersectionObserver(es=>{
+es.forEach(e=>{const o=groups.find(x=>x.g===e.target);if(o)o.on=e.isIntersecting});
+},{rootMargin:'100px'});
+groups.forEach(o=>gio.observe(o.g));
+
+function frame(t){
+if(coarse&&t-last>1800){tx=Math.sin(t/2200)*.8;ty=Math.cos(t/2800)*.7}
+cx+=(tx-cx)*.08;cy+=(ty-cy)*.08;
+let any=false;
+for(const o of groups){
+if(!o.on)continue;any=true;
+for(const e of o.els){
+const d=+e.dataset.d;
+let s='translate3d('+(cx*d*26).toFixed(2)+'px,'+(cy*d*26).toFixed(2)+'px,0)';
+if(e.dataset.rot)s+=' rotate('+(cx*3).toFixed(2)+'deg)';
+e.style.transform=s;
+}
+}
+if(any&&eyes)eyes.style.transform='translate('+(cx*6).toFixed(2)+'px,'+(cy*5).toFixed(2)+'px)';
+requestAnimationFrame(frame);
+}
+if(!still)requestAnimationFrame(frame);
+
+$$('.card').forEach(c=>{
+c.addEventListener('pointermove',e=>{
+const r=c.getBoundingClientRect();
+c.style.setProperty('--mx',(e.clientX-r.left)+'px');
+c.style.setProperty('--my',(e.clientY-r.top)+'px');
+},{passive:true});
+});
+
+if(fine&&!still){
+$$('.pc').forEach(c=>{
+c.addEventListener('pointermove',e=>{
+const r=c.getBoundingClientRect();
+const x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+c.style.transform='perspective(1000px) rotateY('+(x*7).toFixed(2)+'deg) rotateX('+(-y*7).toFixed(2)+'deg) translateY(-4px)';
+},{passive:true});
+c.addEventListener('pointerleave',()=>{c.style.transform=''});
+});
+}
+
+const chat=$('#chat'),ms=$$('.m',chat),st=$$('.st',chat);
+const sleep=n=>new Promise(r=>setTimeout(r,n));
+let run=0,vis=false;
+async function play(){
+const id=++run;
+ms.forEach(m=>m.classList.remove('on'));
+st.forEach(s=>s.classList.remove('on'));
+const plan=[[500,()=>{ms[0].classList.add('on');st[0].classList.add('on')}],[1300,()=>{st[1].classList.add('on')}],[1100,()=>{ms[1].classList.add('on')}],[1500,()=>ms[2].classList.add('on')],[1100,()=>{st[2].classList.add('on');st[3].classList.add('on')}],[900,()=>{ms[3].classList.add('on');st[4].classList.add('on')}]];
+for(const[w,f]of plan){await sleep(w);if(id!==run||!vis)return;f()}
+await sleep(5000);
+if(id===run&&vis)play();
+}
+new IntersectionObserver(es=>{
+vis=es[0].isIntersecting;
+if(vis)play();else run++;
+},{threshold:.35}).observe(chat);
+
+const form=$('#form');
+form.addEventListener('submit',e=>{
+e.preventDefault();
+const f=new FormData(form);
+const n=(f.get('n')||'').trim(),c=(f.get('c')||'').trim(),m=(f.get('m')||'').trim();
+if(!n||!c||!m){[...form.elements].forEach(x=>{if(x.required&&!x.value.trim())x.style.borderColor='#f87171'});return}
+const body=(lang==='ar'?'الاسم: ':'Name: ')+n+'\n'+(lang==='ar'?'التواصل: ':'Contact: ')+c+'\n'+(lang==='ar'?'الخدمة: ':'Service: ')+f.get('s')+'\n\n'+m;
+$('#ok').classList.add('on');
+if(WA)window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(body),'_blank','noopener');
+else location.href='mailto:'+MAIL+'?subject='+encodeURIComponent('Robotim tech - '+n)+'&body='+encodeURIComponent(body);
+});
+form.addEventListener('input',e=>{e.target.style.borderColor=''});
+})();
+</script>
+</body>
+</html>
